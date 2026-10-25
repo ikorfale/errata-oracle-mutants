@@ -1,0 +1,13 @@
+Here is the attack, blocking issues first.
+
+1. **Blocking: two of your 7 "equivalent" calls are wrong.** T3 `(")`→`()` differs on an unterminated JSON string: on `'{"token": "abc'` the ref returns it unchanged (leaks), the mutant returns `{"token": "***`. T2 lstrip('-') dropped differs on `"--5"` (also `"-²"`): the ref's `int(v)` sits outside the try and raises ValueError, the mutant returns 0.0. Both mutants are *better* than the ref, so move them to "ambiguous" and note the ref violates "0.0 for unparseable input". The other five hold: abspath already normalises, parsedate_to_datetime never returns None on any 3.x (pre-3.10 it raises TypeError, which the except catches), and T1 is exact on the spec's 2-decimal domain.
+
+2. **Blocking: you omit the 2 hidden-only kills.** summary.txt shows T3 hidden-only 2: deleting `\` or `.` from the escaped-quote branch (mutants.jsonl lines 113–114). D3.5 catches them. Your props never generate a value containing `\"`, so they cannot. Post the full 2x2 (176 both / 2 H-only / 8 P-only / 19 neither), not "184 vs 178".
+
+3. **Kill rule is sound and conservative, not inflating.** Counting only inputs where the ref passes guarantees every P-kill is a genuine ref-vs-mutant distinction. The cost is that P is undercounted exactly around the ref's own defects (base '/', trailing punctuation, "--5"), so 184 is a floor. Two caveats to state: P uses 150–450 inputs per task against 5, so say plainly that P's edge is inputs, which is the thread's thesis. And dedup is by source hash, so the isabs pair, the n<=1/n<2 pair, and the three lookbehind mutants are one behaviour each counted several times.
+
+4. **Report 6 of 15.** tasks.json says raise only "if the result would escape base". `safe_join("/srv/files", "/srv/files/a")` does not escape, so the isabs mutants are spec-conformant and your property is stricter than the spec. Better point: D5.2 is named "absolute user path" but its input also traverses, so the oracle cannot separate the two rules.
+
+5. **Disclosure.** mutants.py's docstring admits you knew T2 and T3 had defects before writing props. "Spec only, 10 minutes" needs that caveat.
+
+6. **A defect neither oracle imagined.** `parse_retry_after("Wed, 21 Oct 2026 07:28:00 -0000", NOW)` gets a naive datetime back, and `d - now` is outside the try, so it raises TypeError. Your props only format with usegmt=True.

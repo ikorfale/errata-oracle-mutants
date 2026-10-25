@@ -1,0 +1,205 @@
+{"task": "T1", "mutant": "stmtdel@3", "sha": "049550f665b0", "hidden_fail": 1, "prop_kills": 3}
+{"task": "T1", "mutant": "ifTrue@3", "sha": "6ca5d4c3b55a", "hidden_fail": 3, "prop_kills": 150}
+{"task": "T1", "mutant": "ifFalse@3", "sha": "d25d151d1360", "hidden_fail": 1, "prop_kills": 3}
+{"task": "T1", "mutant": "stmtdel@4", "sha": "f316b01401c0", "hidden_fail": 4, "prop_kills": 160}
+{"task": "T1", "mutant": "stmtdel@5", "sha": "a8dfafe1e72a", "hidden_fail": 1, "prop_kills": 10}
+{"task": "T1", "mutant": "ifTrue@5", "sha": "93cbd667ac51", "hidden_fail": 3, "prop_kills": 150}
+{"task": "T1", "mutant": "ifFalse@5", "sha": "8a1748c34c35", "hidden_fail": 1, "prop_kills": 10}
+{"task": "T1", "mutant": "stmtdel@6", "sha": "2b0f0704918d", "hidden_fail": 3, "prop_kills": 150}
+{"task": "T1", "mutant": "stmtdel@7", "sha": "d3a70f56cbf4", "hidden_fail": 3, "prop_kills": 150}
+{"task": "T1", "mutant": "stmtdel@8", "sha": "911efea31c51", "hidden_fail": 3, "prop_kills": 150}
+{"task": "T1", "mutant": "stmtdel@9", "sha": "a6590537ecab", "hidden_fail": 3, "prop_kills": 150}
+{"task": "T1", "mutant": "calldrop:int@153", "sha": "4dc91e483bd3", "hidden_fail": 3, "prop_kills": 150}
+{"task": "T1", "mutant": "methoddrop:to_integral_value@164", "sha": "1571599d388e", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T1", "mutant": "<-><=@(3, 9)", "sha": "dd3b6c865caf", "hidden_fail": 0, "prop_kills": 17}
+{"task": "T1", "mutant": "<->>@(3, 9)", "sha": "c486be4b8fd8", "hidden_fail": 4, "prop_kills": 136}
+{"task": "T1", "mutant": "1->0@(3, 11)", "sha": "055acd46cd13", "hidden_fail": 1, "prop_kills": 1}
+{"task": "T1", "mutant": "1->2@(3, 11)", "sha": "0bdd8fcb8e61", "hidden_fail": 0, "prop_kills": 17}
+{"task": "T1", "mutant": "<-><=@(5, 9)", "sha": "0428b2462f98", "hidden_fail": 1, "prop_kills": 1}
+{"task": "T1", "mutant": "<->>@(5, 9)", "sha": "83520d00db3e", "hidden_fail": 3, "prop_kills": 159}
+{"task": "T1", "mutant": "0->1@(5, 11)", "sha": "53d752530448", "hidden_fail": 2, "prop_kills": 16}
+{"task": "T1", "mutant": "*->/@(6, 18)", "sha": "fec469a80cdf", "hidden_fail": 2, "prop_kills": 149}
+{"task": "T1", "mutant": "100->99@(6, 19)", "sha": "58e22874eff3", "hidden_fail": 1, "prop_kills": 135}
+{"task": "T1", "mutant": "100->101@(6, 19)", "sha": "72da4481332b", "hidden_fail": 1, "prop_kills": 135}
+{"task": "T1", "mutant": "+->-@(8, 14)", "sha": "2639a4777b12", "hidden_fail": 2, "prop_kills": 106}
+{"task": "T1", "mutant": "1->0@(8, 15)", "sha": "3747e3b758ba", "hidden_fail": 2, "prop_kills": 106}
+{"task": "T1", "mutant": "1->2@(8, 15)", "sha": "198d3bb78d30", "hidden_fail": 2, "prop_kills": 106}
+{"task": "T1", "mutant": "*->/@(8, 17)", "sha": "cdb1300c23b1", "hidden_fail": 3, "prop_kills": 150}
+{"task": "T1", "mutant": "+->-@(8, 20)", "sha": "7e6545df338a", "hidden_fail": 3, "prop_kills": 150}
+{"task": "T1", "mutant": "*->/@(8, 25)", "sha": "e07ff5b4462b", "hidden_fail": 3, "prop_kills": 150}
+{"task": "T1", "mutant": "-->+@(8, 28)", "sha": "0aac4d7d382d", "hidden_fail": 2, "prop_kills": 106}
+{"task": "T1", "mutant": "//->/@(9, 16)", "sha": "b05876fe1d39", "hidden_fail": 3, "prop_kills": 150}
+{"task": "T1", "mutant": "100->99@(9, 18)", "sha": "16a323416bca", "hidden_fail": 1, "prop_kills": 124}
+{"task": "T1", "mutant": "100->101@(9, 18)", "sha": "00c3ce158b1f", "hidden_fail": 1, "prop_kills": 124}
+{"task": "T1", "mutant": "%->//@(9, 25)", "sha": "476c4a02ec95", "hidden_fail": 2, "prop_kills": 149}
+{"task": "T1", "mutant": "100->99@(9, 26)", "sha": "682f53ae5950", "hidden_fail": 1, "prop_kills": 132}
+{"task": "T1", "mutant": "100->101@(9, 26)", "sha": "c25449a2b7d1", "hidden_fail": 1, "prop_kills": 132}
+{"task": "T2", "mutant": "stmtdel@3", "sha": "cb56d346a4ba", "hidden_fail": 5, "prop_kills": 600}
+{"task": "T2", "mutant": "stmtdel@4", "sha": "414230c4c587", "hidden_fail": 1, "prop_kills": 149}
+{"task": "T2", "mutant": "ifTrue@4", "sha": "5e8cec190a8e", "hidden_fail": 3, "prop_kills": 300}
+{"task": "T2", "mutant": "ifFalse@4", "sha": "173279f3995d", "hidden_fail": 1, "prop_kills": 149}
+{"task": "T2", "mutant": "stmtdel@6", "sha": "8a43e112033b", "hidden_fail": 3, "prop_kills": 300}
+{"task": "T2", "mutant": "stmtdel@8", "sha": "989ed3d326f8", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T2", "mutant": "ifTrue@8", "sha": "535917cb8d2f", "hidden_fail": 1, "prop_kills": 71}
+{"task": "T2", "mutant": "ifFalse@8", "sha": "a93b9553e97b", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T2", "mutant": "stmtdel@9", "sha": "b15dbaed017b", "hidden_fail": 2, "prop_kills": 150}
+{"task": "T2", "mutant": "calldrop:lstrip@91", "sha": "50a4c7d323b5", "hidden_fail": 1, "prop_kills": 149}
+{"task": "T2", "mutant": "calldrop:float@132", "sha": "3a0e637e1c5d", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T2", "mutant": "calldrop:int@138", "sha": "a04b87140db1", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T2", "mutant": "methoddrop:strip@75", "sha": "b67f999f8549", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T2", "mutant": "methoddrop:lstrip@92", "sha": "27f2ba336643", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T2", "mutant": "or->and@(3, 15)", "sha": "0557df48e014", "hidden_fail": 2, "prop_kills": 220}
+{"task": "T2", "mutant": "strdel0:'-'@(4, 16)", "sha": "8784c3122f07", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T2", "mutant": "max->min@(4, 39)", "sha": "b81fa424e02a", "hidden_fail": 2, "prop_kills": 299}
+{"task": "T2", "mutant": "max->min@(9, 11)", "sha": "19c0659d581e", "hidden_fail": 2, "prop_kills": 150}
+{"task": "T2", "mutant": "-->+@(9, 23)", "sha": "a164fd7b90f7", "hidden_fail": 2, "prop_kills": 150}
+{"task": "T3", "mutant": "stmtdel@4", "sha": "ef75e2dec6bc", "hidden_fail": 2, "prop_kills": 100}
+{"task": "T3", "mutant": "stmtdel@5", "sha": "f9015f4186de", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel0:'('@(2, 4)", "sha": "f3e46749c0cf", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel1:'?'@(2, 4)", "sha": "dce737e599cb", "hidden_fail": 3, "prop_kills": 132}
+{"task": "T3", "mutant": "strdel2:':'@(2, 4)", "sha": "aeb001acf4fd", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel3:'p'@(2, 4)", "sha": "3ed43da313f8", "hidden_fail": 1, "prop_kills": 51}
+{"task": "T3", "mutant": "strdel4:'a'@(2, 4)", "sha": "059eba9de035", "hidden_fail": 1, "prop_kills": 51}
+{"task": "T3", "mutant": "strdel5:'s'@(2, 4)", "sha": "eee61f0711d9", "hidden_fail": 1, "prop_kills": 51}
+{"task": "T3", "mutant": "strdel7:'w'@(2, 4)", "sha": "341658a4c4ce", "hidden_fail": 1, "prop_kills": 51}
+{"task": "T3", "mutant": "strdel8:'o'@(2, 4)", "sha": "66c3e416beb4", "hidden_fail": 1, "prop_kills": 51}
+{"task": "T3", "mutant": "strdel9:'r'@(2, 4)", "sha": "d0ff47a98121", "hidden_fail": 1, "prop_kills": 51}
+{"task": "T3", "mutant": "strdel10:'d'@(2, 4)", "sha": "fe0cf93f3000", "hidden_fail": 1, "prop_kills": 51}
+{"task": "T3", "mutant": "strdel11:'|'@(2, 4)", "sha": "57dcf71b074b", "hidden_fail": 2, "prop_kills": 105}
+{"task": "T3", "mutant": "strdel12:'t'@(2, 4)", "sha": "b9bc45c2a981", "hidden_fail": 1, "prop_kills": 54}
+{"task": "T3", "mutant": "strdel13:'o'@(2, 4)", "sha": "5d75a48b0069", "hidden_fail": 1, "prop_kills": 54}
+{"task": "T3", "mutant": "strdel14:'k'@(2, 4)", "sha": "65abcd92ab6c", "hidden_fail": 1, "prop_kills": 54}
+{"task": "T3", "mutant": "strdel15:'e'@(2, 4)", "sha": "976842b25f2b", "hidden_fail": 1, "prop_kills": 54}
+{"task": "T3", "mutant": "strdel16:'n'@(2, 4)", "sha": "7caa551206fc", "hidden_fail": 1, "prop_kills": 54}
+{"task": "T3", "mutant": "strdel17:'|'@(2, 4)", "sha": "8b9224e1b6cd", "hidden_fail": 2, "prop_kills": 106}
+{"task": "T3", "mutant": "strdel18:'a'@(2, 4)", "sha": "9bfd5ddd94c6", "hidden_fail": 1, "prop_kills": 52}
+{"task": "T3", "mutant": "strdel19:'p'@(2, 4)", "sha": "c352faa6e5ca", "hidden_fail": 1, "prop_kills": 52}
+{"task": "T3", "mutant": "strdel20:'i'@(2, 4)", "sha": "3cec3990d3e6", "hidden_fail": 1, "prop_kills": 52}
+{"task": "T3", "mutant": "strdel21:'_'@(2, 4)", "sha": "ee50e01f44ed", "hidden_fail": 1, "prop_kills": 52}
+{"task": "T3", "mutant": "strdel22:'k'@(2, 4)", "sha": "b82a03006df6", "hidden_fail": 1, "prop_kills": 52}
+{"task": "T3", "mutant": "strdel23:'e'@(2, 4)", "sha": "9a460b1fb0a0", "hidden_fail": 1, "prop_kills": 52}
+{"task": "T3", "mutant": "strdel24:'y'@(2, 4)", "sha": "45adccd18234", "hidden_fail": 1, "prop_kills": 52}
+{"task": "T3", "mutant": "strdel25:'|'@(2, 4)", "sha": "29200c4d8fc6", "hidden_fail": 2, "prop_kills": 107}
+{"task": "T3", "mutant": "strdel26:'s'@(2, 4)", "sha": "4f3a3b882678", "hidden_fail": 1, "prop_kills": 55}
+{"task": "T3", "mutant": "strdel27:'e'@(2, 4)", "sha": "2071535f53bf", "hidden_fail": 1, "prop_kills": 55}
+{"task": "T3", "mutant": "strdel28:'c'@(2, 4)", "sha": "d6a7f3853d95", "hidden_fail": 1, "prop_kills": 55}
+{"task": "T3", "mutant": "strdel29:'r'@(2, 4)", "sha": "95123b4be132", "hidden_fail": 1, "prop_kills": 55}
+{"task": "T3", "mutant": "strdel30:'e'@(2, 4)", "sha": "f85d0fd62b41", "hidden_fail": 1, "prop_kills": 55}
+{"task": "T3", "mutant": "strdel31:'t'@(2, 4)", "sha": "f1472c306c5f", "hidden_fail": 1, "prop_kills": 55}
+{"task": "T3", "mutant": "strdel32:')'@(2, 4)", "sha": "055859475d5c", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel0:'('@(4, 18)", "sha": "f9af9d627c87", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel1:'\"'@(4, 18)", "sha": "0f7cb8d90524", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T3", "mutant": "+->-@(4, 23)", "sha": "caf69cf6cd09", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "+->-@(4, 25)", "sha": "65fe9789e0e8", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel0:'\"'@(4, 26)", "sha": "63ed7d16c2ef", "hidden_fail": 2, "prop_kills": 100}
+{"task": "T3", "mutant": "strdel1:'\\\\'@(4, 26)", "sha": "a54b90f4ba63", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T3", "mutant": "strdel2:'s'@(4, 26)", "sha": "7b9f4e7bbb62", "hidden_fail": 2, "prop_kills": 100}
+{"task": "T3", "mutant": "strdel3:'*'@(4, 26)", "sha": "7bf23488471f", "hidden_fail": 2, "prop_kills": 100}
+{"task": "T3", "mutant": "strdel4:':'@(4, 26)", "sha": "ac436c83c716", "hidden_fail": 2, "prop_kills": 100}
+{"task": "T3", "mutant": "strdel5:'\\\\'@(4, 26)", "sha": "7cc118a17b00", "hidden_fail": 2, "prop_kills": 100}
+{"task": "T3", "mutant": "strdel6:'s'@(4, 26)", "sha": "47d6428fea51", "hidden_fail": 2, "prop_kills": 100}
+{"task": "T3", "mutant": "strdel7:'*'@(4, 26)", "sha": "0ccbd24d8150", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T3", "mutant": "strdel8:'\"'@(4, 26)", "sha": "4cf88729a86d", "hidden_fail": 2, "prop_kills": 100}
+{"task": "T3", "mutant": "strdel9:')'@(4, 26)", "sha": "174319ccac4a", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel10:'('@(4, 26)", "sha": "1b9472ffa4f4", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel12:'?'@(4, 26)", "sha": "693cd2a1afd8", "hidden_fail": 2, "prop_kills": 100}
+{"task": "T3", "mutant": "strdel13:':'@(4, 26)", "sha": "66a9bf1fbc69", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel14:'['@(4, 26)", "sha": "c84fabea7613", "hidden_fail": 2, "prop_kills": 100}
+{"task": "T3", "mutant": "strdel15:'^'@(4, 26)", "sha": "1c77ceac3faa", "hidden_fail": 2, "prop_kills": 100}
+{"task": "T3", "mutant": "strdel16:'\"'@(4, 26)", "sha": "1604c1cc2bcb", "hidden_fail": 1, "prop_kills": 50}
+{"task": "T3", "mutant": "strdel17:'\\\\'@(4, 26)", "sha": "ec6af2f30116", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel19:']'@(4, 26)", "sha": "de9af3cc40f3", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel20:'|'@(4, 26)", "sha": "ab3d5fd0bcd6", "hidden_fail": 2, "prop_kills": 100}
+{"task": "T3", "mutant": "strdel21:'\\\\'@(4, 26)", "sha": "20ba35b3b6fe", "hidden_fail": 1, "prop_kills": 0}
+{"task": "T3", "mutant": "strdel23:'.'@(4, 26)", "sha": "dff6da22683f", "hidden_fail": 1, "prop_kills": 0}
+{"task": "T3", "mutant": "strdel24:')'@(4, 26)", "sha": "ffc5f835fbfe", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel25:'*'@(4, 26)", "sha": "c2befa30e3dd", "hidden_fail": 2, "prop_kills": 100}
+{"task": "T3", "mutant": "strdel26:')'@(4, 26)", "sha": "db20eae24cbd", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel27:'('@(4, 26)", "sha": "1f06c174bd9e", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel28:'\"'@(4, 26)", "sha": "03b594bf9931", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T3", "mutant": "strdel29:')'@(4, 26)", "sha": "cdf11f2bfad3", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel0:'\\\\'@(4, 61)", "sha": "f911913913ca", "hidden_fail": 0, "prop_kills": 50}
+{"task": "T3", "mutant": "strdel1:'1'@(4, 61)", "sha": "240686dd83d1", "hidden_fail": 0, "prop_kills": 50}
+{"task": "T3", "mutant": "strdel2:'*'@(4, 61)", "sha": "147285cd1458", "hidden_fail": 0, "prop_kills": 50}
+{"task": "T3", "mutant": "strdel5:'\\\\'@(4, 61)", "sha": "136f15e2528b", "hidden_fail": 0, "prop_kills": 50}
+{"task": "T3", "mutant": "strdel0:'('@(5, 18)", "sha": "fd3cb6e4b022", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel1:'?'@(5, 18)", "sha": "6fa1d0ff6875", "hidden_fail": 2, "prop_kills": 112}
+{"task": "T3", "mutant": "strdel2:'<'@(5, 18)", "sha": "9072f5cf33df", "hidden_fail": 2, "prop_kills": 112}
+{"task": "T3", "mutant": "strdel3:'!'@(5, 18)", "sha": "423ebbd36447", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel4:'['@(5, 18)", "sha": "24aa5ebb244f", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T3", "mutant": "strdel5:'\\\\'@(5, 18)", "sha": "e93edee944d7", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T3", "mutant": "strdel6:'w'@(5, 18)", "sha": "d0400d1b70fe", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T3", "mutant": "strdel7:'\"'@(5, 18)", "sha": "3a8a2b36f68a", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T3", "mutant": "strdel8:']'@(5, 18)", "sha": "12859f012800", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel9:')'@(5, 18)", "sha": "75e9fc0c3977", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel10:'('@(5, 18)", "sha": "6103e4816305", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "+->-@(5, 32)", "sha": "56c248e651db", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "+->-@(5, 34)", "sha": "f67b7d38c9fc", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel0:')'@(5, 35)", "sha": "89e85b3c218c", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel1:'('@(5, 35)", "sha": "f3ccb022508f", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel2:'\\\\'@(5, 35)", "sha": "a77e06646bf0", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T3", "mutant": "strdel3:'s'@(5, 35)", "sha": "fbf65c3014df", "hidden_fail": 2, "prop_kills": 112}
+{"task": "T3", "mutant": "strdel4:'*'@(5, 35)", "sha": "be5e792d46d3", "hidden_fail": 2, "prop_kills": 112}
+{"task": "T3", "mutant": "strdel5:'['@(5, 35)", "sha": "d6c2b7766f74", "hidden_fail": 2, "prop_kills": 112}
+{"task": "T3", "mutant": "strdel6:'='@(5, 35)", "sha": "4c79671b5b44", "hidden_fail": 1, "prop_kills": 61}
+{"task": "T3", "mutant": "strdel7:':'@(5, 35)", "sha": "15b70feaf0ba", "hidden_fail": 1, "prop_kills": 51}
+{"task": "T3", "mutant": "strdel8:']'@(5, 35)", "sha": "1f139e8bc1cc", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel9:'\\\\'@(5, 35)", "sha": "af2e747e23f3", "hidden_fail": 1, "prop_kills": 22}
+{"task": "T3", "mutant": "strdel10:'s'@(5, 35)", "sha": "7e4bf41911f2", "hidden_fail": 2, "prop_kills": 112}
+{"task": "T3", "mutant": "strdel11:'*'@(5, 35)", "sha": "02e0f9d00cfc", "hidden_fail": 1, "prop_kills": 90}
+{"task": "T3", "mutant": "strdel12:')'@(5, 35)", "sha": "8aa76f005f61", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel13:'('@(5, 35)", "sha": "4aa6a3b22095", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel14:'?'@(5, 35)", "sha": "b848550ad5eb", "hidden_fail": 2, "prop_kills": 112}
+{"task": "T3", "mutant": "strdel15:'!'@(5, 35)", "sha": "6cb472dc2505", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel16:'\"'@(5, 35)", "sha": "e1e3f6f17cd7", "hidden_fail": 2, "prop_kills": 112}
+{"task": "T3", "mutant": "strdel17:')'@(5, 35)", "sha": "e3ea302e1499", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel18:'('@(5, 35)", "sha": "d89c5f0410bc", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel19:'\\\\'@(5, 35)", "sha": "f52f0b315f00", "hidden_fail": 2, "prop_kills": 110}
+{"task": "T3", "mutant": "strdel20:'S'@(5, 35)", "sha": "8904f4839295", "hidden_fail": 2, "prop_kills": 112}
+{"task": "T3", "mutant": "strdel21:'+'@(5, 35)", "sha": "32ecbc584654", "hidden_fail": 1, "prop_kills": 12}
+{"task": "T3", "mutant": "strdel22:')'@(5, 35)", "sha": "3ddaa73a6471", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel0:'\\\\'@(5, 63)", "sha": "60373ff7b8fb", "hidden_fail": 1, "prop_kills": 12}
+{"task": "T3", "mutant": "strdel1:'1'@(5, 63)", "sha": "04d00da9d69c", "hidden_fail": 1, "prop_kills": 12}
+{"task": "T3", "mutant": "strdel2:'\\\\'@(5, 63)", "sha": "9ea082a8a7d1", "hidden_fail": 5, "prop_kills": 362}
+{"task": "T3", "mutant": "strdel3:'2'@(5, 63)", "sha": "34b539199cab", "hidden_fail": 1, "prop_kills": 12}
+{"task": "T3", "mutant": "strdel4:'*'@(5, 63)", "sha": "9507701eaf9f", "hidden_fail": 1, "prop_kills": 12}
+{"task": "T4", "mutant": "stmtdel@2", "sha": "0813c29f1486", "hidden_fail": 4, "prop_kills": 150}
+{"task": "T4", "mutant": "stmtdel@4", "sha": "289880a727d9", "hidden_fail": 4, "prop_kills": 132}
+{"task": "T4", "mutant": "stmtdel@5", "sha": "678ceaf1e39d", "hidden_fail": 3, "prop_kills": 132}
+{"task": "T4", "mutant": "ifTrue@5", "sha": "5f77d3f0aa4d", "hidden_fail": 1, "prop_kills": 76}
+{"task": "T4", "mutant": "ifFalse@5", "sha": "8657a7df15bd", "hidden_fail": 3, "prop_kills": 132}
+{"task": "T4", "mutant": "stmtdel@6", "sha": "f4d2cc621897", "hidden_fail": 3, "prop_kills": 150}
+{"task": "T4", "mutant": "strdel0:'i'@(4, 14)", "sha": "ec12ca27061c", "hidden_fail": 4, "prop_kills": 132}
+{"task": "T4", "mutant": "strdel1:'d'@(4, 14)", "sha": "f9d31ab1f0ae", "hidden_fail": 4, "prop_kills": 132}
+{"task": "T4", "mutant": "not->del@(5, 13)", "sha": "027c2e0ceb62", "hidden_fail": 4, "prop_kills": 132}
+{"task": "T4", "mutant": "or->and@(5, 25)", "sha": "abd9c3a9f749", "hidden_fail": 4, "prop_kills": 132}
+{"task": "T4", "mutant": "strdel0:'t'@(5, 30)", "sha": "3993ef2abcd6", "hidden_fail": 3, "prop_kills": 94}
+{"task": "T4", "mutant": "strdel1:'s'@(5, 30)", "sha": "d5064dd5c018", "hidden_fail": 3, "prop_kills": 94}
+{"task": "T4", "mutant": ">->>=@(5, 36)", "sha": "0809678767f7", "hidden_fail": 1, "prop_kills": 28}
+{"task": "T4", "mutant": ">-><@(5, 36)", "sha": "e5186af2e92b", "hidden_fail": 1, "prop_kills": 88}
+{"task": "T4", "mutant": "1->0@(5, 46)", "sha": "f188b8cbc312", "hidden_fail": 3, "prop_kills": 94}
+{"task": "T4", "mutant": "1->2@(5, 46)", "sha": "1e5b89a38735", "hidden_fail": 3, "prop_kills": 94}
+{"task": "T4", "mutant": "strdel0:'t'@(5, 49)", "sha": "dafad38c0336", "hidden_fail": 3, "prop_kills": 94}
+{"task": "T4", "mutant": "strdel1:'s'@(5, 49)", "sha": "d74fc2dbc5b9", "hidden_fail": 3, "prop_kills": 94}
+{"task": "T4", "mutant": "0->1@(5, 84)", "sha": "d8c80bb9ea5f", "hidden_fail": 4, "prop_kills": 132}
+{"task": "T4", "mutant": "1->0@(6, 65)", "sha": "f7d0c1447672", "hidden_fail": 4, "prop_kills": 132}
+{"task": "T4", "mutant": "1->2@(6, 65)", "sha": "f90b93a799c6", "hidden_fail": 4, "prop_kills": 132}
+{"task": "T4", "mutant": "strdel0:'t'@(6, 68)", "sha": "72f8eff43256", "hidden_fail": 4, "prop_kills": 132}
+{"task": "T4", "mutant": "strdel1:'s'@(6, 68)", "sha": "61436ed990e9", "hidden_fail": 4, "prop_kills": 132}
+{"task": "T4", "mutant": "0->1@(6, 77)", "sha": "efa87b068a7b", "hidden_fail": 1, "prop_kills": 54}
+{"task": "T5", "mutant": "stmtdel@3", "sha": "c5505eea0a66", "hidden_fail": 4, "prop_kills": 100}
+{"task": "T5", "mutant": "stmtdel@4", "sha": "f3c6087015a1", "hidden_fail": 0, "prop_kills": 3}
+{"task": "T5", "mutant": "ifTrue@4", "sha": "6209584f2fad", "hidden_fail": 2, "prop_kills": 81}
+{"task": "T5", "mutant": "ifFalse@4", "sha": "f8c7d77c6504", "hidden_fail": 0, "prop_kills": 3}
+{"task": "T5", "mutant": "stmtdel@5", "sha": "cfe9429bcc11", "hidden_fail": 4, "prop_kills": 100}
+{"task": "T5", "mutant": "stmtdel@6", "sha": "0d00bf53951b", "hidden_fail": 2, "prop_kills": 19}
+{"task": "T5", "mutant": "ifTrue@6", "sha": "347fd699cde4", "hidden_fail": 2, "prop_kills": 81}
+{"task": "T5", "mutant": "ifFalse@6", "sha": "050ac0bea04a", "hidden_fail": 2, "prop_kills": 19}
+{"task": "T5", "mutant": "stmtdel@7", "sha": "49ca120fd73c", "hidden_fail": 2, "prop_kills": 81}
+{"task": "T5", "mutant": "calldrop:normpath@57", "sha": "ee805fc1526a", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T5", "mutant": "calldrop:abspath@76", "sha": "ac92bc2a0b60", "hidden_fail": 0, "prop_kills": 0}
+{"task": "T5", "mutant": "!=->==@(6, 9)", "sha": "bc13b32f563c", "hidden_fail": 2, "prop_kills": 41}
+{"task": "T5", "mutant": "and->or@(6, 14)", "sha": "2b70049184cb", "hidden_fail": 2, "prop_kills": 81}
+{"task": "T5", "mutant": "not->del@(6, 18)", "sha": "cb4d1072c02f", "hidden_fail": 4, "prop_kills": 78}
+{"task": "T5", "mutant": "+->-@(6, 37)", "sha": "ecac9190f7bd", "hidden_fail": 4, "prop_kills": 78}
+{"task": "T5", "mutant": "strdel0:'/'@(6, 39)", "sha": "b6f0dda0275a", "hidden_fail": 1, "prop_kills": 1}

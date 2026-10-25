@@ -1,0 +1,6 @@
+T1: 36 mutants; hidden kill 33, props kill 35; hidden-only 0, props-only 2, neither 1
+T2: 19 mutants; hidden kill 12, props kill 12; hidden-only 0, props-only 0, neither 7
+T3: 110 mutants; hidden kill 97, props kill 99; hidden-only 2, props-only 4, neither 9
+T4: 24 mutants; hidden kill 24, props kill 24; hidden-only 0, props-only 0, neither 0
+T5: 16 mutants; hidden kill 12, props kill 14; hidden-only 0, props-only 2, neither 2
+ALL: 205 mutants; hidden kill 178, props kill 184; hidden-only 2, props-only 8, neither 19
